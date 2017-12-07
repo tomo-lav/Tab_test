@@ -15,6 +15,9 @@
 		7415F7FE1FD7B34900A27880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7415F7FC1FD7B34900A27880 /* LaunchScreen.storyboard */; };
 		7415F8091FD7B34900A27880 /* Tab_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415F8081FD7B34900A27880 /* Tab_testTests.swift */; };
 		7415F8141FD7B34900A27880 /* Tab_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415F8131FD7B34900A27880 /* Tab_testUITests.swift */; };
+		7415F8221FD7B39D00A27880 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7415F8211FD7B39D00A27880 /* First.storyboard */; };
+		7415F8241FD7B3A900A27880 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7415F8231FD7B3A900A27880 /* Second.storyboard */; };
+		7415F8261FD7BA5900A27880 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415F8251FD7BA5900A27880 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7415F80F1FD7B34900A27880 /* Tab_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tab_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7415F8131FD7B34900A27880 /* Tab_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_testUITests.swift; sourceTree = "<group>"; };
 		7415F8151FD7B34900A27880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7415F8211FD7B39D00A27880 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		7415F8231FD7B3A900A27880 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		7415F8251FD7BA5900A27880 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,11 @@
 				7415F7F11FD7B34900A27880 /* AppDelegate.swift */,
 				7415F7F31FD7B34900A27880 /* FirstViewController.swift */,
 				7415F7F51FD7B34900A27880 /* SecondViewController.swift */,
-				7415F7F71FD7B34900A27880 /* Main.storyboard */,
 				7415F7FA1FD7B34900A27880 /* Assets.xcassets */,
+				7415F8251FD7BA5900A27880 /* TabBarController.swift */,
+				7415F7F71FD7B34900A27880 /* Main.storyboard */,
+				7415F8211FD7B39D00A27880 /* First.storyboard */,
+				7415F8231FD7B3A900A27880 /* Second.storyboard */,
 				7415F7FC1FD7B34900A27880 /* LaunchScreen.storyboard */,
 				7415F7FF1FD7B34900A27880 /* Info.plist */,
 			);
@@ -238,6 +247,8 @@
 				7415F7FE1FD7B34900A27880 /* LaunchScreen.storyboard in Resources */,
 				7415F7FB1FD7B34900A27880 /* Assets.xcassets in Resources */,
 				7415F7F91FD7B34900A27880 /* Main.storyboard in Resources */,
+				7415F8241FD7B3A900A27880 /* Second.storyboard in Resources */,
+				7415F8221FD7B39D00A27880 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7415F7F61FD7B34900A27880 /* SecondViewController.swift in Sources */,
+				7415F8261FD7BA5900A27880 /* TabBarController.swift in Sources */,
 				7415F7F21FD7B34900A27880 /* AppDelegate.swift in Sources */,
 				7415F7F41FD7B34900A27880 /* FirstViewController.swift in Sources */,
 			);
